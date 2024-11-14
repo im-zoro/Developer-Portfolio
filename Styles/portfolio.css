@@ -24,6 +24,7 @@ nav{
           margin: 0px 200px;
 
 }
+
 .nav-title{
          color: black;
          font-size: 45px;
@@ -42,6 +43,56 @@ nav a{
      text-decoration: none;
      color: black;
 }
+/* header related styles */
+.header{
+     background-color: white;
+     background-image: url('../image/background.png')
+     background-repeat: no-repeat;
+     background-position: bottom right, left;
+}
 .banner{
-     padding: 30px 30px 30px 150px;
+     padding: 30px 30px 0px 150px;
+     display: flex;
+     align-items: center; 
+     justify-content: space-between;  
+}
+.profile-picture{
+     width: 500px;
+
+}
+.banner-content{
+     max-width: 500px;
+}
+.banner-greeting{
+font-size: 46px;
+color: aqua;
+}
+.banner-title{
+font-size: 85px;
+font-weight: 700px;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+/* main section */
+
+/* about section */
+.about{
+     padding: 130px;
+     border-radius: 10px;
+     background: none;
+     margin: 20px;
+     
+}
+.section-title{
+     color: black;
+     text-align:center;
+     font-size: 35px;
+     font-weight: 700px;
+
+}
+.section-description{
+color: aliceblue;
+text-align: center;
+font size: 10px;
+
 }
